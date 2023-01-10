@@ -1,0 +1,196 @@
+/*animações*/
+@keyframes bottomToTop {
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    from{
+        opacity: 0;
+        transform: translateY(100vh);
+    }
+}
+@keyframes topToBottom {
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    from{
+        opacity: 0;
+        transform: translateY(-100vh);
+    }
+}
+.generalNavbar{
+    animation-name:topToBottom;
+    animation-duration: 1s;
+}
+
+.generalSection{
+    animation-name:bottomToTop;
+    animation-duration: 1s;
+}
+
+/*Configurações Gerais da página*/
+
+
+.body{
+    height: 100vh;
+    margin: 0 auto;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.fa-circle{
+    font-size: 25px;
+    color: #b9ffc3;
+}
+.direcionamentoHome{
+    color: #0b1114;
+}
+.direcionamentoHome:hover{
+    text-decoration: none;
+}
+
+.fa-bars{
+    color: #0b1114;
+}
+.navbar-brand{
+    color: #0b1114;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    padding-bottom: 2vh;
+}
+
+.btnCustom{
+    color: #343a40;
+    transition: 0.5s;
+}
+
+.btnCustom:hover{
+    color: #0b1114;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+.image{
+    background-color: #ffffff;
+}
+
+.sectionIndex{
+    background-color: #ffffff;
+    height: 570px;
+}
+article{
+    text-align: justify;
+    font-family: 'Space Mono', monospace;
+}
+h3{
+    font-family: 'Space Mono', monospace;
+}
+
+.btnCliqueAqui{
+    padding: 10px 20px;
+    background-color: #008786;
+    border: 1px solid #008786;
+    color: #ffffff;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.btnCliqueAqui:hover{
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+
+/*curriculo*/
+
+.section2{
+    height: 100vh;
+}
+
+.subSection1 .fas{
+    font-size: 1.1em;
+    padding: 10px 5px;
+    color: #008786;
+}
+
+.espacoInterno{
+    padding: 1px;
+    margin: 10px 0px ;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+.hardskills li{
+    margin: 10px 0px;
+}
+
+.subSection3{
+    text-align: justify;
+}
+.subSection4 .fas, .subSection3 span, .subSection5 i, .subSection6 i{
+    font-size: 1.3em;
+    padding: 10px 5px;
+    color: #008786;
+}
+.subSection4 span, .subSection5 span, .subSection6 span{
+    font-size: 1.3em;
+    padding: 10px 5px;
+    color: #7c7c7c;
+}
+
+
+.borderImg{
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.borderImg:hover{
+    transform: scale(1.05);
+}
+
+.expandirProjeto{
+    padding: 10px 20px;
+    background-color: #008786;
+    border: #008786 1px solid;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.expandirProjeto:hover{
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: #0b1114;
+    background-color: #ffffff;
+}
+
+
+/*projetos programção*/
+.btnProjetos{
+    background-color: #008786;
+    border: 1px solid #008786;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.btnProjetos:hover{
+    cursor: pointer;
+    letter-spacing: 3px;
+    color: #008786;
+    background: #ffffff;
+}
+.subSectionProgramacao{
+    padding-bottom: 25px;
+
+}
+.iconeCarrousel{
+    transition:0.3s;
+    background-color: #0b111417;
+}
+.iconeCarrousel:hover{
+    color: #008786;
+    background-color: #0b111447;
+}
+/*espaçamento e etc*/
+
+
+
