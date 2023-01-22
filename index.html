@@ -27,9 +27,11 @@
         <nav class="container-fluid navbar navbar-expand-md">
 
             <div class="navbar-brand generalNavbar">
-                <i class="fas fa-circle"></i>
-                <a class="direcionamentoHome" href="index.html">Gabriel Aielo</a>
-                <small>Engineering student</small>
+                <div class="row d-flex align-items-center">
+                    <i class="fas fa-circle"></i>
+                        <a class="direcionamentoHome" href="index.html">Gabriel Aielo</a>
+                            <small class="ml-2 d-none d-md-block d-lg-block d-xl-block">Engineering student</small>
+                </div>
             </div>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expandNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
@@ -63,15 +65,15 @@
                 <div class=" row d-flex align-items-center justify-content-center sectionIndex">
 
                     <div class=" col-md-6 col-sm-6 text-center">
-                        <img class="" src="./img/Design sem nome.png" width="300px">
+                        <img class="imgPerfil" src="./img/Design sem nome.png" width="300px">
                     </div>
 
                     <div class="col-md-6 col-sm-6">
                         <h3>
                             Olá,
                         </h3>
-                        <article class="" >Me chamo Gabriel, tenho 22 anos, sou graduando em Engenharia de Controle e Automação no Instituto 
-                            Federal de São Paulo. Além disso, estudo Desenvolvimento Web por conta própria. Navegue pela página para 
+                        <article class="" >Me chamo Gabriel, tenho 21 anos, sou graduando em Engenharia de Controle e Automação no Instituto 
+                            Federal de São Paulo. Além disto, estudo Desenvolvimento Web por conta própria. Navegue pela página para 
                             conhecer um pouco mais do meu portifólio e projetos de engenharia.</article>
 
                             <div class="col-12 mt-3">
@@ -117,12 +119,20 @@
             .espacoExterno{
                 height: 2500px;
             }
+            .imgPerfil{
+                width: 200px;
+                margin:20px 0px;
+            }
         }
         
         /* Small devices (landscape phones, 576px and up)*/
         @media (min-width: 576px) and (max-width: 767.98px) { 
             .espacoExterno{
                 height: 2200px;
+            }
+            .imgPerfil{
+                width: 200px;
+                margin:20px 0px;
             }
             
         }
